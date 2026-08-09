@@ -1,5 +1,7 @@
-// Initialize Lucide Icons
-lucide.createIcons();
+// Initialize Lucide Icons safely
+if (typeof lucide !== 'undefined' && lucide.createIcons) {
+    lucide.createIcons();
+}
 
 // 1. TYPING ANIMATION IN HERO
 const typingText = [
@@ -15,9 +17,10 @@ let isDeleting = false;
 const typingSpeed = 100;
 const deletingSpeed = 50;
 const pauseTime = 2000;
-const typingTarget = document.getElementById("typing-target");
 
 function playTypingAnimation() {
+    const typingTarget = document.getElementById("typing-target");
+    if (!typingTarget) return;
     const currentString = typingText[activeTextIdx];
 
     if (isDeleting) {
