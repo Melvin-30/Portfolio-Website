@@ -1,0 +1,76 @@
+export const skillCategories = [
+  {
+    id: "programming-languages",
+    title: "Programming Languages",
+    description: "Core languages used for problem solving, software development, and scripting.",
+    skills: [
+      { name: "Python", level: "Proficient", icon: "Code2" },
+      { name: "Java", level: "Core", icon: "Coffee" },
+      { name: "JavaScript", level: "Proficient", icon: "FileCode" },
+      { name: "C", level: "Academic", icon: "Terminal" },
+      { name: "C++", level: "Academic", icon: "Terminal" },
+      { name: "SQL", level: "Relational", icon: "Database" },
+      { name: "PHP", level: "Web", icon: "Server" },
+      { name: "VB.NET", level: "Desktop", icon: "Layers" },
+      { name: "QBasic", level: "Foundational", icon: "Cpu" },
+      { name: "Scratch", level: "Foundational", icon: "Box" },
+    ],
+  },
+  {
+    id: "frontend-development",
+    title: "Frontend Development",
+    description: "Building responsive, modern, and accessible web interfaces.",
+    skills: [
+      { name: "HTML5", level: "Semantic Markup", icon: "Layout" },
+      { name: "CSS3", level: "Styling & Flex/Grid", icon: "Palette" },
+      { name: "JavaScript", level: "ES6+ Logic", icon: "FileCode" },
+      { name: "React.js", level: "Component Architecture", icon: "Atom" },
+      { name: "React Native", level: "Mobile Apps & Expo", icon: "Smartphone" },
+      { name: "Tailwind CSS", level: "Utility-first Styling", icon: "Wind" },
+      { name: "p5.js", level: "Creative Coding", icon: "Sparkles" },
+    ],
+  },
+  {
+    id: "backend-development",
+    title: "Backend Development",
+    description: "Server-side logic, API consumption, and application integration.",
+    skills: [
+      { name: "Node.js", level: "Runtime Environment", icon: "Server" },
+      { name: "Firebase", level: "BaaS & Auth", icon: "Flame" },
+      { name: "PHP", level: "Server Scripting", icon: "Globe" },
+    ],
+  },
+  {
+    id: "databases",
+    title: "Databases",
+    description: "Data modeling, relational management, and document storage.",
+    skills: [
+      { name: "MySQL", level: "Relational RDBMS", icon: "Database" },
+      { name: "SQLite", level: "Embedded Database", icon: "HardDrive" },
+      { name: "Firebase Firestore", level: "NoSQL Cloud DB", icon: "Cloud" },
+    ],
+  },
+  {
+    id: "tools-platforms",
+    title: "Tools & Platforms",
+    description: "Developer environments, version control, and operating systems.",
+    skills: [
+      { name: "Git", level: "Version Control", icon: "GitBranch" },
+      { name: "GitHub", level: "Collaboration & CI/CD", icon: "Github" },
+      { name: "VS Code", level: "Primary IDE", icon: "Code" },
+      { name: "Linux", level: "Environment & CLI", icon: "Terminal" },
+      { name: "Windows", level: "Development OS", icon: "Monitor" },
+    ],
+  },
+  {
+    id: "ai-emerging",
+    title: "AI & Emerging Technologies",
+    description: "Exploring artificial intelligence, generative models, and LLM integrations.",
+    skills: [
+      { name: "Generative AI", level: "Intermediate", icon: "Bot" },
+      { name: "LLM API Integration", level: "Practical Applications", icon: "Zap" },
+      { name: "AI-Powered Development", level: "Applied Solutions", icon: "Cpu" },
+      { name: "Machine Learning", level: "Beginner", icon: "Brain" },
+    ],
+  },
+];

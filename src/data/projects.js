@@ -1,0 +1,68 @@
+export const projects = [
+  {
+    id: "attendance-management-system",
+    title: "Attendance Management System",
+    category: "Mobile & Full-Stack",
+    description:
+      "A cross-platform React Native and Expo application integrated with Firebase Firestore and advanced multi-sheet Excel reporting, engineered for academic class and student attendance tracking.",
+    features: [
+      "Secure user authentication with Firebase Auth and role-based security rules",
+      "Class roster and student management with roll numbers and section mapping",
+      "Dynamic attendance logging with date picker and real-time Firestore sync",
+      "Monthly attendance views with auto-calculated daily present/absent summaries",
+      "Multi-sheet Excel (.xlsx) export engine with custom styling via xlsx-js-style",
+      "Cross-platform universal sharing support across Web and Native Mobile",
+    ],
+    technologies: [
+      "React Native",
+      "Expo",
+      "Firebase Firestore",
+      "Firebase Auth",
+      "xlsx-js-style",
+      "JavaScript",
+    ],
+    liveUrl: null,
+    githubUrl: "https://github.com/Melvin-30/Attendance-App",
+    featured: true,
+    status: "Active",
+  },
+  {
+    id: "12th-it-sop-portal",
+    title: "Std 12th IT Subject SOPs Portal — Maharashtra Board",
+    category: "EdTech & Web Platform",
+    description:
+      "A dedicated educational resource and interactive mock examination portal engineered specifically for Maharashtra State Board Class 12 Information Technology students (Science and Commerce streams).",
+    features: [
+      "Curated SOP study materials with syllabus-aligned exercises",
+      "Dedicated stream-specific resources for Science & Commerce",
+      "Dynamic mock examination system with countdown timer",
+      "Randomized question generation and section-wise navigation",
+      "Instant automated result calculation with score analytics",
+      "Comprehensive answer key and step-by-step solution reviews",
+    ],
+    technologies: ["HTML5", "CSS3", "JavaScript", "JSON"],
+    liveUrl: "https://12thitsop.netlify.app/",
+    githubUrl: "https://github.com/Melvin-30",
+    featured: true,
+    status: "Live & Deployed",
+  },
+  {
+    id: "developer-portfolio",
+    title: "Personal Developer Portfolio",
+    category: "Web Application",
+    description:
+      "A modern, responsive portfolio engineered with React, Vite, and Tailwind CSS to showcase academic background, technical skills, genuine software projects, and verified credentials.",
+    features: [
+      "Custom dual-theme engine (Light/Dark) with system detection and zero-flash loading",
+      "Categorized skill inventory across programming, web, and emerging AI technologies",
+      "Dedicated certification library with modal viewer and official issuer verification links",
+      "Client-side validated contact channel with multi-state feedback",
+      "Fully accessible, semantic HTML5 structure with responsive desktop & mobile layouts",
+    ],
+    technologies: ["React.js", "Vite", "Tailwind CSS", "Framer Motion", "Lucide React"],
+    liveUrl: "https://melvin-30.github.io/Portfolio-Website/",
+    githubUrl: "https://github.com/Melvin-30",
+    featured: true,
+    status: "Active",
+  },
+];
